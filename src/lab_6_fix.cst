@@ -1,0 +1,41 @@
+IO_LOC  "i_clk" T9;
+IO_PORT "i_clk" IO_TYPE=LVCMOS33;
+
+IO_LOC  "i_sw[0]" B16;
+IO_PORT "i_sw[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "i_sw[1]" A15;
+IO_PORT "i_sw[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "i_sw[2]" C15;
+IO_PORT "i_sw[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "i_sw[3]" C17;
+IO_PORT "i_sw[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "o_led[0]" D14;
+IO_PORT "o_led[0]" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_led[1]" C14;
+IO_PORT "o_led[1]" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_led[2]" B9;
+IO_PORT "o_led[2]" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_led[3]" A9;
+IO_PORT "o_led[3]" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_seg7_dio" F4;
+IO_PORT "o_seg7_dio" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_seg7_rclk" F3;
+IO_PORT "o_seg7_rclk" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_seg7_sclk" H4;
+IO_PORT "o_seg7_sclk" IO_TYPE=LVCMOS33;
+
+IO_LOC  "o_oled_scl" R3;
+IO_PORT "o_oled_scl" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "io_oled_sda" T3;
+IO_PORT "io_oled_sda" IO_TYPE=LVCMOS33 PULL_MODE=UP;
