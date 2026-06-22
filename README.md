@@ -1,5 +1,3 @@
-### **Memory Game FPGA using Gowin ACG525A-LV25U6125iI1/1C type-A **
----
 # FPGA Memory Game on Gowin GW5A-LV25UG / ACG525
 
 ## 1. Project Overview
